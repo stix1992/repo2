@@ -5,6 +5,7 @@ def close_window():
 
 root = tk.Tk()
 root.title("Hello, Tkinter!")
+root.geometry("300x200")
 
 button = tk.Button(root, text="Закрыть", command=close_window)
 button.pack()

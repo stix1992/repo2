@@ -6,6 +6,7 @@ def update_label():
 
 root = tk.Tk()
 root.title("Tkinter Example")
+root.geometry("300x200")
 
 label = tk.Label(root, text="Введите текст и нажмите кнопку")
 label.pack()
